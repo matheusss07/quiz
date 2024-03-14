@@ -1,0 +1,57 @@
+body{
+    background: url(https://www.e-webseisaku.com/wp/wp-content/uploads/2021/12/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 114%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: rgb(145, 221, 84);
+    border-radius: 20px;
+}
+.quiz-container{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-top: 20%;
+}
+#pergunta{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+#opcoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.correto{
+    background-color: #86fc00;
+    border-radius: 10px;
+}
+.incorreto{
+    background-color: #ff2f2f;
+    border-radius: 10px;
+}
+footer{
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ed5a0e;
+        color: #ffffff;
+        box-sizing: border-box;
+        border-radius: 30px;
+    }
+    
+
+
